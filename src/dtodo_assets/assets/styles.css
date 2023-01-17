@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #e0fff8;
+  margin: 0;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2db3ff;
+  width: 100%;
+  height: 5em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav > span {
+  font-size: 2.5em;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+/* Textbox */
+.box {
+  margin: 1.5em 0;
+  border: 1px solid #c5c5c5;
+  border-radius: 5px 0 0 5px;
+  padding: 1em;
+  font-size: 1em;
+  width: 36%;
+}
+
+form {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 2em;
+  height: 1.65em;
+  font-size: 2em;
+  border-width: 0;
+  border-radius: 0 5px 5px 0;
+  background-color: #d9d9d9;
+}
+
+/* Todolist */
+.list {
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  min-width: 42.8%;
+}
+
+/* Item */
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0.7em 1.5em; */
+  padding: 0.7em;
+  margin: 5px 0 0 0;
+
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-width: 0;
+  border-radius: 5px;
+}
+
+.content {
+  font-size: 1.5em;
+}
+
+.item > td {
+  word-wrap: break-word;
+  margin: 0 0.5em;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #dd2c00;
+}

@@ -1,0 +1,5 @@
+service : {
+  addListItem: (text) -> () oneway;
+  readList: () -> (vec text) query;
+  removeListItem: (nat) -> () oneway;
+}

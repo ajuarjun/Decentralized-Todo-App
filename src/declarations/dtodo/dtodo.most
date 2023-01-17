@@ -1,0 +1,5 @@
+// Version: 1.0.0
+type List<T> = ?(T, List<T>);
+actor {
+  stable var dlist : ?(Text, List<Text>)
+};
