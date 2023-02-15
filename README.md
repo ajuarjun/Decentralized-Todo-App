@@ -1,5 +1,5 @@
 # Decentralized Todo App
-Decentralized Todo App is a React Web Application deployed onto ICP blockchain using Dfinity and language Motoko. The list data is stored within the canister and retrieved and manipuated on the React frontend.
+Decentralized Todo App is a React Web Application deployed onto ICP blockchain using Dfinity and language Motoko. The list data is stored within the canister and retrieved and manipulated on the React frontend.
 
 ## Internet Computer
 Welcome to your new dtodo project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
